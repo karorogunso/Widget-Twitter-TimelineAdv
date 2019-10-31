@@ -1,0 +1,25 @@
+<noinclude>__NOTOC__
+This widget allows you to embed a '''[https://developer.twitter.com/en/docs/twitter-for-websites/overview.html Twitter feed]''' (HTML version) on your wiki page.
+
+Originally created by [https://www.mediawikiwidgets.org/User:Sergey_Chernyshev Sergey Chernyshev]. Updated code created by [https://www.mediawiki.org/w/index.php?title=User:Kelson Emmanuel Engelhart] (pulled from [https://phabricator.wikimedia.org/T207716 Phabricator: T207716])
+
+Update by Karorogunso (Puriwit Sesupaponphot)
+
+==Using this widget==
+For information on how to use this widget, see [https://www.mediawikiwidgets.org/Twitter widget description page on MediaWikiWidgets.org].
+
+
+<nowiki>{{#widget:Twitter TimelineAdv|lang=en|width=350px|height=200px|theme=dark|color=#000|id=loveplusproject}}</nowiki>
+
+Options:<br >
+id: TwitterID <br >
+lang: Twitter Language<br >
+width: width of widget (ex 200px or 50%)<br >
+height: height of widget (ex 200px or 50%)<br >
+theme: light or dark<br >
+color: webcolor (ex #000000)<br >
+
+== Copy to your site ==
+To use this widget on your site, just install [https://www.mediawiki.org/wiki/Extension:Widgets MediaWiki Widgets extension] and copy the [{{fullurl:{{FULLPAGENAME}}|action=edit}} full source code] of this page to your wiki as page '''{{FULLPAGENAME}}'''.
+</noinclude><includeonly><a class="twitter-timeline" data-lang="<!--{$lang}-->" data-width="<!--{$width}-->" data-height="<!--{$height}-->" data-theme="<!--{$theme}-->" data-link-color="<!--{$color}-->" href="https://twitter.com/<!--{$id}-->?ref_src=twsrc%5Etfw"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></includeonly>
